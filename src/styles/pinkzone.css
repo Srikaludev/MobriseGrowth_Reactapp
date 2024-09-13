@@ -1,0 +1,57 @@
+.pink-zone {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000; 
+}
+
+.pink-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pink-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 192, 203, 0.6); /* Pink overlay with transparency */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.pink-heading {
+    font-size: 2em; /* Adjust as needed */
+    margin-bottom: 20px;
+    font-weight: 300; /* Light font weight */
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7); /* Faded color for text */
+}
+
+.pink-button {
+    padding: 10px 20px;
+    font-size: 1.25em; /* Adjust as needed */
+    background-color: #c4c638; /* Primary color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pink-button:hover {
+    background-color: #e60075; /* Darker shade for hover effect */
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light color for divider */
+    width: 50%;
+    margin: 20px auto;
+}

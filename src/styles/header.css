@@ -1,0 +1,47 @@
+.header-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Hide any overflow */
+}
+
+.header-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff; /* White text color */
+}
+
+.header-text h3 {
+    font-size: 2em; /* Adjust as needed */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.header-text hr {
+    border: 1px solid rgba(255, 255, 255, 0.7); /* Light color for divider */
+    width: 50%;
+    margin: 20px auto;
+}
+
+.header-button {
+    background-color: #9a970f; /* Primary button color */
+    color: #ffffff; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.25em; /* Adjust as needed */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    background-color: #e59256; /* Darker shade for hover effect */
+}

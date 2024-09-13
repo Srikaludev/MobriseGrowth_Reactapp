@@ -1,0 +1,62 @@
+#navbar {
+    margin-top: 3px; /* Creates space between the top of the page and the navbar */
+}
+
+.zone {
+    cursor: pointer;
+    color: #070707;
+    font-size: 2em;
+    border: 0px solid #bbb;
+    transition: all 0.3s linear;
+    padding: 20px 40px 20px 20px; /* Adjust padding inside the navbar */
+    
+}
+
+.blue {
+    background-color: #ffffff; /* Background color for the navbar */
+    color: black; /* Text color */
+}
+
+.sticky {
+    position: fixed;
+    top: 14px;
+    width: calc(100% - 40px);
+    left: 10px;
+    right:15px;
+    z-index: 1000;
+     /* Ensure it stays above other content */
+}
+
+.nav-radius {
+    border-radius: 18px; /* Optional: Add rounded corners */
+}
+
+.main-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Align items horizontally */
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+.main-nav li {
+    margin: 0 15px; /* Space between items */
+}
+
+.main-nav a {
+    color: black; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+}
+
+.main-nav .push-right {
+    margin-left: auto; /* Push this item to the far right */
+}
+
+.main-nav .button a {
+    background-color: #ffc107; /* Background color for the button */
+    color: black; /* Text color for the button */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 4px; /* Rounded corners for the button */
+}

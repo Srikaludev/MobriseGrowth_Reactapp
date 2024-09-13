@@ -1,0 +1,41 @@
+.blog-posts {
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.blogtitle {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.post-tiles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.post-tile {
+    width: 22%;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-tile img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.post-tile h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.post-tile p {
+    font-size: 1em;
+    color: #666;
+}

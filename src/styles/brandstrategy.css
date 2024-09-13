@@ -1,0 +1,15 @@
+.startup {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center;
+    color: #ffffff; /* White text color */
+    background: rgb(0, 0, 0); /* Black background or adjust as needed */
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full width */
+}
+
+.cover2 {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}

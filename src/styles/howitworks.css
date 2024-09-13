@@ -1,0 +1,15 @@
+.how-it-works-section {
+    text-align: center;
+    background-color: rgb(252, 252, 137); /* Yellow background */
+    color: #000000; /* Black text color */
+}
+
+.how-it-works-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.how-it-works-section h3 {
+    font-size: 1.5em;
+    line-height: 1.6;
+}

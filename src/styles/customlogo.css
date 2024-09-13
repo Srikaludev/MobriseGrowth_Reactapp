@@ -1,0 +1,62 @@
+.custom-logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin: 0;
+}
+
+.custom-logo-section .text-content {
+    flex: 1;
+    margin-right: 20px;
+    max-width: 60%; /* Restricts the text content to 60% of the container's width */
+}
+
+.custom-logo-section .text-content h1.splgrey {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em; /* Increased font size */
+    line-height: 1.5;
+    color: #64595972; /* Specific color with transparency */
+}
+
+.custom-logo-section .text-content h3.smallblacktext {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    color: #666; /* Adjust color if necessary */
+    margin-top: 10px; /* Optional, for spacing between h1 and h3 */
+}
+
+.custom-logo-section .image-content {
+    flex: 1;
+    text-align: center; /* Center the image */
+}
+
+.custom-logo-section .image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional, for rounded corners on the image */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .custom-logo-section {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .custom-logo-section .text-content {
+        margin-right: 0;
+        margin-bottom: 20px;
+        max-width: 100%; /* Ensure full width on smaller screens */
+        text-align: center;
+    }
+
+    .custom-logo-section .image-content img {
+        width: 100%;
+    }
+}

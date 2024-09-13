@@ -1,0 +1,41 @@
+.team-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.team-title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    max-width: 300px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.team-name {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.team-role {
+    font-size: 1.2em;
+    color: #777;
+}

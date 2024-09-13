@@ -1,0 +1,44 @@
+.zone1 {
+    background: rgb(0, 0, 0); /* Black background or adjust as needed */
+    color: #ffffff;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.kanye {
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.text-content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.text-content h3 {
+    font-size: 1.25em; /* Adjust size as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.custom-btn-xl {
+    padding: 10px 20px;
+    font-size: 1.25em; /* Adjust as needed */
+    background-color: #ff007f; /* Primary color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.custom-btn-xl:hover {
+    background-color: #e60075; /* Darker shade for hover effect */
+}
