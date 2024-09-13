@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MobriseGrowth_Reactapp/static/css/main.7e4082a4.css",
+    "main.js": "/MobriseGrowth_Reactapp/static/js/main.7efcb1cf.js",
+    "static/js/453.ed3810f9.chunk.js": "/MobriseGrowth_Reactapp/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/MobriseGrowth_Reactapp/index.html",
+    "main.7e4082a4.css.map": "/MobriseGrowth_Reactapp/static/css/main.7e4082a4.css.map",
+    "main.7efcb1cf.js.map": "/MobriseGrowth_Reactapp/static/js/main.7efcb1cf.js.map",
+    "453.ed3810f9.chunk.js.map": "/MobriseGrowth_Reactapp/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e4082a4.css",
+    "static/js/main.7efcb1cf.js"
+  ]
+}
